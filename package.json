@@ -1,0 +1,31 @@
+{
+    "name": "webdriverio-test-automation",
+    "version": "1.0.0",
+    "description": "e2e test automation using webdriver io",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "wdio": "wdio run wdio.conf.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ISanjeevKumar/webdriverio-test-automation.git"
+    },
+    "keywords": [
+        "webdriverio"
+    ],
+    "author": "Sanjeev Kumar",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ISanjeevKumar/webdriverio-test-automation/issues"
+    },
+    "homepage": "https://github.com/ISanjeevKumar/webdriverio-test-automation#readme",
+    "devDependencies": {
+        "@wdio/cli": "^7.16.8",
+        "@wdio/local-runner": "^7.16.8",
+        "@wdio/mocha-framework": "^7.16.6",
+        "@wdio/spec-reporter": "^7.16.4",
+        "chromedriver": "^96.0.0",
+        "wdio-chromedriver-service": "^7.2.2"
+    }
+}
